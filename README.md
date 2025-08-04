@@ -1,3 +1,6 @@
+# 💫 About Me:
+🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mr__santu__p) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:santoshpujer466@gmail.com) 
