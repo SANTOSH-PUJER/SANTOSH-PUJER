@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #f4f7fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #004aad, #00c3ff);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.nav-bar h1 {
+  font-size: 22px;
+  flex-grow: 1;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: red;
+  
+}
+
+.hero {
+  background: url("background.jpg") no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.nav-head {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  
+}
+
+.Branch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.s {
+  background-color:white;
+  width: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.s:hover {
+  transform: scale(1.03);
+}
+
+.s img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.s h2 {
+  margin: 15px;
+  color: #004aad;
+}
+
+.s p {
+  padding: 0 15px 20px;
+  font-size: 14px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.gallery-grid video{
+  width: 100%;
+  height:200px ;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: square;
+  padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+.department-detail {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.department-detail h1 {
+  font-size: 32px;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.department-detail h2 {
+  color: #005fa3;
+  margin-top: 25px;
+}
+
+.department-detail ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.department-detail p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+.back-button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0066cc;
+}
+
+

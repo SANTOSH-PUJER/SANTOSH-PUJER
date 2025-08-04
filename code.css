@@ -1,0 +1,38 @@
+body{
+background-color:pink
+
+}
+.h1{
+   font-size: 100px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+table{
+    border-collapse:collapse ;
+    table-layout: auto;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1cm;
+    text-transform: uppercase;
+    text-wrap: 2px;
+}
+tr:hover{
+    background-color: rgb(33, 181, 161);
+
+}
+td{
+    image-resolution: 10px;
+}
+    
+
+    
+    
+
+
+    
+

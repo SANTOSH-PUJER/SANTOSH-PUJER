@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Government Polytechnic Mudhol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+  <header>
+    <div class="logo">GPT Mudhol</div>
+    <div class="mobile-icon" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links">
+      <a href="#">Home</a>
+      <a href="#departments">Departments</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Government Polytechnic Mudhol</h1>
+    <a href="#departments" class="btn">Explore Departments</a>
+  </section>
+
+  <section class="departments" id="departments">
+    <h2>Our Branches</h2>
+    <div class="dept-grid">
+      <div class="card">
+        <h3>Computer Science & Engineering (CSE)</h3>
+        <p>Focuses on programming, software development, and emerging technologies like AI, ML, and Cybersecurity.</p>
+      
+      </div>
+      <div class="card">
+        <h3>Civil Engineering (CE)</h3>
+        <p>Deals with construction, structural design, surveying, and infrastructure development.</p>
+      </div>
+      <div class="card">
+        <h3>Electronics & Communication (ECE)</h3>
+        <p>Covers electronics, digital systems, communication networks, and embedded systems.</p>
+      </div>
+      <div class="card">
+        <h3>Mechanical Engineering (MECH)</h3>
+        <p>Specializes in machines, manufacturing, thermal engineering, and design systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Why Choose Us</h2>
+    <div class="features">
+      <div class="feature">
+        <h4>Modern Labs</h4>
+        <p>Well-equipped labs with industry-standard software and hardware.</p>
+      </div>
+      <div class="feature">
+        <h4>Expert Faculty</h4>
+        <p>Experienced and passionate educators guiding students to success.</p>
+      </div>
+      <div class="feature">
+        <h4>Placement Support</h4>
+        <p>Assistance with internships and job placements through TPO Cell.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="contact">
+    <p>📍 Government Polytechnic, Mudhol | 📞 08350-295453 | ✉️ gptmudhol2012@gmail.com</p>
+    <p>© 2025 GPT Mudhol. All rights reserved.</p>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav-links");
+      nav.classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
